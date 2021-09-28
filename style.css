@@ -1,0 +1,256 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+nav{
+    height:11vh;
+    border-bottom: 2px solid #DDD;
+    max-width: 100%;
+}
+.logo{
+    height:11vh;
+    padding: 2.5vh 0;
+    padding-right:0!important;
+    margin-right:0;
+}
+.logo img{
+    margin-left:42%;
+}
+
+.navbar-items li{
+    font-size: 15;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 2vh 0;
+    margin:2vh 2%;
+}
+.navbar-items li a{
+    text-decoration: none;
+    color:#484848;
+}
+
+
+
+
+
+.dropbtn {
+    background: transparent;
+    color: #484848;
+    font-size: 15px;
+    border: none;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  /* .dropdown-content a:hover {} */
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;} 
+ 
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+
+.off{
+    background:#FF8C00;
+    font-size: 12px;
+    margin:0 0 0 6px;
+    padding:3px 6px;
+    letter-spacing:0.5px;
+    border-radius: 5px;
+    color:white!important;
+}
+
+.searchbox{
+    width:100%;
+    display:flex;
+    height:14vh;
+     padding: 3.5vh 0; 
+    /* padding-left:32%!important;
+    padding-right:28%!important;
+    margin-right:0!important; */
+    padding-left:25%;
+
+}
+.searchbox input{
+    width:63%;
+    outline:none;
+    padding:11px 11px 11px 15px;
+    margin:0!important;
+    border:1px solid #DDD;
+    border-radius:3px 0 0 3px;
+    margin-left:25%;
+}
+.searchbox input:focus{
+   outline:none;
+}
+.search_icon{
+    width:7%;
+    margin:0!important;
+    background:#00A5EC;
+    color:white;
+    font-size:22px;
+    padding:2%;
+    border-radius:0 3px 3px 0 !important;
+    /* margin-right:15%; */
+}
+
+
+
+/* header */
+.item{
+    position:relative;
+    padding:40px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:flex;
+    flex-direction:column;
+    margin-bottom:5px;
+
+}
+.item img{
+    background:transparent!important;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 12%);
+    border-radius:8px!important
+}
+
+
+.internships{
+    padding:24px 10%;
+}
+.headings{
+    display:flex;
+    justify-content: space-between;
+   
+}
+.headings h2{
+    color:#333;
+    font-size:28px;
+    font-weight:600;
+}
+.headings p{
+    color:#484848;
+    margin:16px 0 40px;
+    font-size:18px;
+    margin-top:16px;
+    line-height:1.22;
+}
+.right_p{
+    font-size:16px;
+    color: #008BDC!important;
+    cursor: pointer;
+    font-weight: 600;
+}
+.categories{
+    margin-bottom:5vh;
+}
+.categories h4{
+    font-weight: 600;
+    color:#333;
+    margin-bottom:3vh;
+}
+
+.dots{
+    display:flex;
+   
+}
+.dot{
+    padding-top: 10px;
+    flex-direction:column;
+    align-items:center;
+    border-radius:6px;
+    margin:10px 7px;
+    width:140px;
+    height:156px;
+}
+.dot a{
+    text-decoration:none;
+    color:#333;
+}
+.dot a:hover{
+    text-decoration:none!important;
+    color:#00A5EC;
+}
+.dot:hover {
+    color:#00A5EC;
+    text-decoration:none;
+    box-shadow:0 2px 8px rgb(0 0 0 / 12%);
+    border-radius: 6px;
+}
+.dot p{
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.38;
+    margin-top:16px;
+}
+
+.job-tag{
+    color:white;
+    background:#FF8C00;
+    border-radius:3px;
+    font-size:18px;
+    font-weight:600;
+    padding:4px 16px;
+    margin-left:4px;
+    height:4vh
+        
+}
+
+footer{
+    background:#333;
+    position:absolute;
+    width:100%;
+    padding:10vh 0;
+   
+}
+.footer-list h5{
+    color:#fff;
+    font-weight:600;
+    line-height:1.25;
+    font-size:16px;
+}
+.footer-list-item{
+    margin-bottom:2vh;
+}
+.footer-list-item a{
+    color:#fff;
+    font-size:14px;
+    text-decoration:none;
+    text-align: center;
+    font-weight:500;
+}
+
+
+.social_media_link_footer{
+    color:#fff;
+}
